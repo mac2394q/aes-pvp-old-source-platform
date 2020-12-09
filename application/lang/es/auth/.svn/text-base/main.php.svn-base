@@ -1,0 +1,22 @@
+<?php
+	require_once(ROOT . DS . 'application' . DS . 'views' . DS . 'base.php');
+	
+	$smarty->assign('title', $title);
+	$smarty->assign('description', $description);
+	$smarty->assign('categories', $categorias);
+	$smarty->assign('uscenes', $ultimas_escenas);
+
+	$smarty->assign('oscenes', $otras_escenas);
+	$smarty->assign('toscenes', $total_otras_escenas);
+	$smarty->assign('poscenes', $paginas_otras_escenas);
+	
+	$smarty->assign('nscenes', $nopropias_escenas);
+	$smarty->assign('tnscenes', $total_nopropias_escenas);
+	$smarty->assign('pnscenes', $paginas_exitos);
+	
+	$smarty->assign('series', $series);
+	$smarty->assign('tseries', $total_series);
+	
+	$smarty->assign('webcams', $webcams);
+	
+	$smarty->display('subscription/main.tpl');

@@ -1,0 +1,8 @@
+<?php
+	require_once(ROOT . DS . 'application' . DS . 'views' . DS . 'base.php');
+	
+	$smarty->assign('nscenes', $nopropias_escenas);
+	$smarty->assign('tnscenes', $total_nopropias_escenas);
+	$smarty->assign('pnscenes', $paginas_exitos);
+
+	$smarty->display('scenes/nscenes.tpl');	

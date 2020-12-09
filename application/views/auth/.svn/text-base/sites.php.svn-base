@@ -1,0 +1,7 @@
+<?php
+	require_once(ROOT . DS . 'application' . DS . 'views' . DS . 'base.php');
+	
+	$smarty->assign('series', $series);
+	$smarty->assign('tseries', $total_series);
+
+	$smarty->display('series/sites.tpl');	

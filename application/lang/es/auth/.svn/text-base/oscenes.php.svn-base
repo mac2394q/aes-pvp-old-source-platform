@@ -1,0 +1,8 @@
+<?php
+	require_once(ROOT . DS . 'application' . DS . 'views' . DS . 'base.php');
+	
+	$smarty->assign('oscenes', $otras_escenas);
+	$smarty->assign('toscenes', $total_otras_escenas);
+	$smarty->assign('poscenes', $paginas_otras_escenas);
+
+	$smarty->display('scenes/oscenes.tpl');	

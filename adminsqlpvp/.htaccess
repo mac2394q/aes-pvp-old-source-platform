@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine on
+<IfModule mod_rewrite.c>
+	RewriteEngine 	on
+</IfModule>
+AuthType Basic
+AuthName "protected"
+AuthUserFile "/var/www/html/pvpadminmysql"
+require valid-user
+

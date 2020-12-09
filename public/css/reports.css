@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+body {font-family: arial, verdana, tahoma; font-size:12px;}
+div.header {font-family: arial, verdana, tahoma; font-size:14px; font-weight:bold;}
+table {border:solid #000 1px; border-spacing:0px; margin: 10px 0}
+th {border:solid #000 1px; padding:2px; background-color:#BBAACC; text-align:left;}
+td {border:solid #000 1px; padding:2px;}
+.left {float:left; width:150px;}
+.right {float:left;}
+.break {clear:both; height:10px;}
+.hidden{display: none;}
